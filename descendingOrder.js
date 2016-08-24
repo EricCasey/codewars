@@ -1,9 +1,9 @@
 function descendingOrder(n){
-  //...
-
-
-  console.log(n);
-
+var digits = (""+n).split("");
+digits.sort(function(a, b){return b-a});
+digits = digits.toString().replace(/,/ig, '');
+var result = Number(digits);
+console.log(result);
 }
 
-descendingOrder(40582);
+descendingOrder(12351345);
