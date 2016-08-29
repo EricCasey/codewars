@@ -14,7 +14,7 @@ if (zeroCount > 0) {
   arr.push(0);
 }
 }
-console.log(arr);
+return arr;
 } // end of function
 
 moveZeros([9,9,1,2,1,1,3,1,9,9,0,0,0,0,0,0,0,0,0,0])
