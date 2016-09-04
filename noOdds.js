@@ -9,7 +9,7 @@ if (values[i] % 2 === 0) {
 } // end of if
 
 } //end of for
-console.log(oddValues);
+return(oddValues);
 } // end of function
 
 noOdds([1, 2, 3, 4])
