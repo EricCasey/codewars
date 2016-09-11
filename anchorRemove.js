@@ -1,5 +1,5 @@
 function removeUrlAnchor(url){
-  // TODO: complete
+
 
 url = url.replace(/\#about/g, '');
 console.log(url);

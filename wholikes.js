@@ -1,5 +1,4 @@
 function likes(names) {
-  // TODO
 
 if (names.length === 0) { console.log("no one likes this")}
   else if (names.length === 1) { console.log(names[0] + "likes this") }
@@ -11,9 +10,8 @@ likes(["Alex", "Jacob", "Mark", "Max"]);
 
 
 
-
 function likes(names) {
-  // TODO
+
 
 if (names.length === 0) { return "no one likes this"}
   else if (names.length === 1) { return names[0] + " likes this" }
